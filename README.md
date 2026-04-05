@@ -1,3 +1,5 @@
+[English](./README.md) | [简体中文](./README_zh.md)
+
 # LLMWiki
 
 LLMWiki is a minimalist, KISS-principled personal knowledge base web application and [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) Server. It combines a Next.js-based web interface with powerful agentic capabilities, allowing AI assistants in compatible IDEs to natively manage your Markdown-based knowledge base.
