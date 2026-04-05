@@ -1,7 +1,7 @@
 export async function extractWikiContent(content) {
-  const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
+  const DEEPSEEK_API_KEY = process.env.WIKI_DEEPSEEK_API_KEY || process.env.DEEPSEEK_API_KEY;
   if (!DEEPSEEK_API_KEY) {
-    throw new Error('Missing DEEPSEEK_API_KEY environment variable. Please set it in .env.local');
+    throw new Error('Missing WIKI_DEEPSEEK_API_KEY environment variable. Please set it in .env.local');
   }
 
   const systemPrompt = `你是一个知识库管理员。你的任务是从用户给定的原始文本中提取核心概念、实体、关键信息，并生成一篇结构良好、可作为维基概念页的 Markdown 文稿。

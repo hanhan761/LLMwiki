@@ -5,3 +5,4 @@
 ## 概念集合
 - [Euler梁轴压屈曲ABAQUS仿真参数](/look/Euler梁轴压屈曲ABAQUS仿真参数): 本文档详细描述了Euler梁在轴向压缩下的屈曲问题，包括材料、几何、加载参数、边界条件、理论临界值及ABAQUS仿真设置。
 - [LLMWiki](/look/LLMWiki): LLMWiki 是一个结合 Web 界面和 MCP 服务器的个人知识库工具，支持 AI 代理管理 Markdown 文件。
+- [AstroForge HW系列火箭发动机燃烧室一体化设计](/look/AstroForge_HW系列火箭发动机燃烧室一体化设计): AstroForge HW系列是一个渐进式学习项目，通过22个子问题教授火箭发动机燃烧室一体化设计的核心能力，涵盖从热力学到几何编译的全流程。
