@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "read": true,
+    "write": true,
+    "delete": false
+  }
+}
